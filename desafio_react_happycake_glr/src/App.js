@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./views/Home";
 import Productos from "./views/Productos";
 import Contacto from "./views/Contacto";
+import NotFound from "./views/NotFound";
 
 // import Registro from "./views/Registro";
 
@@ -17,6 +18,8 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Productos" element={<Productos />} />
           <Route path="/Contacto" element={<Contacto />} />
+          <Route path="/NotFound" element={<NotFound />} />
+
         </Routes>
       </BrowserRouter>
     </div>

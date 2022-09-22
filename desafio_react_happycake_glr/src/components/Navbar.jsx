@@ -4,6 +4,9 @@ import { FaHome } from "react-icons/fa";
 import { FaRegAddressBook } from "react-icons/fa";
 import { FaBirthdayCake } from "react-icons/fa";
 import { GiStairsCake } from "react-icons/gi";
+import { FaShoppingCart} from "react-icons/fa";
+
+
 
 export default function Navigation() {
   return (
@@ -36,6 +39,17 @@ export default function Navigation() {
               Contacto &nbsp;
               <FaRegAddressBook />
             </Link>
+
+            <Link
+              to="/NotFound"
+              className="text-white ms-3 text-decoration-none"
+            >
+              {" "}
+              Carro de compra &nbsp;
+              <FaShoppingCart />
+            </Link>
+
+
           </div>
 
           <div>
